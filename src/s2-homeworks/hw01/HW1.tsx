@@ -18,21 +18,19 @@ import friendMessage from "./friend-message/FriendMessage";
 
 
 type UserType ={
-    avatar: string
-    name: string
+    avatar:string,
+    name:string,
 }
 
-type FriendMessagePropsType = {
-    text: string
-    time: string
+type FirstMessageType = {
+    text:string,
+    time:string,
 }
-
 
 export type MessageType = {
-    id: number
-    user: UserType
-    message: FriendMessagePropsType
-
+   id:number,
+   user:UserType,
+   message:FirstMessageType,
 }
 
 // структуру объекта не менять
