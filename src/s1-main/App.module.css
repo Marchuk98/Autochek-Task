@@ -1,11 +1,6 @@
-.body{
-    overflow-y: scroll;
-    height:400px;
-}
 
 .App {
     --header_height: 60px;
-   margin: 200px 0 0 100px;
  
 }
 
