@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AutochekTask/static/css/main.5e4dbdaf.css",
+    "main.js": "/AutochekTask/static/js/main.88df5a7c.js",
+    "static/js/787.66cb4309.chunk.js": "/AutochekTask/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/AutochekTask/static/media/avatar.0c18ddc275ec90c1a80c.png",
+    "index.html": "/AutochekTask/index.html",
+    "main.5e4dbdaf.css.map": "/AutochekTask/static/css/main.5e4dbdaf.css.map",
+    "main.88df5a7c.js.map": "/AutochekTask/static/js/main.88df5a7c.js.map",
+    "787.66cb4309.chunk.js.map": "/AutochekTask/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e4dbdaf.css",
+    "static/js/main.88df5a7c.js"
+  ]
+}
