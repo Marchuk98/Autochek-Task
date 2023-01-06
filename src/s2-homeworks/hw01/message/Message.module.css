@@ -1,23 +1,23 @@
 .message {
-    position: relative;
+    /* position: relative; */
 
 }
 
 .imageAndText {
 
-    margin-top: 41px;
+    /* margin-top: 41px; */
 }
 
 .imageAndText img {
-    position: absolute;
+    /* position: absolute;
     top: 20px !important;
     left: 1040px !important;
     width: 48px;
-    height: 48px;
+    height: 48px; */
 }
 
 .text {
-    position: relative;
+    /* position: relative;
     top: 6px;
     left: 490px;
     margin-bottom: 10px;
@@ -28,12 +28,12 @@
     text-align: left;
     font: 400 .9em 'Open Sans', sans-serif;
     border: 1px solid #0066CC;
-    border-radius: 10px;
+    border-radius: 10px; */
 
 }
 
 .text:after {
-    content: '';
+    /* content: '';
     position: absolute;
     top: 27px;
     width: 0;
@@ -42,31 +42,31 @@
     border-left: 15px solid transparent;
     border-right: 33px solid transparent;
     bottom: 0;
-    right: -21px;
+    right: -21px; */
 
 }
 
 .name {
-    float: right;
+    /* float: right;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
-    opacity: 0.9;
+    opacity: 0.9; */
 }
 
 .messageText {
-    line-height: 4;
+    /* line-height: 4;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    opacity: 0.9;
+    opacity: 0.9; */
 }
 
 .time {
-    position: absolute;
+    /* position: absolute;
     top: 75px;
     left: 1051px;
     width: 26px;
@@ -75,5 +75,5 @@
     font-weight: bold;
     font-size: 10px;
     line-height: 12px;
-    color: #000000;
+    color: #000000; */
 }
