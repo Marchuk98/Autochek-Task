@@ -1,11 +1,11 @@
 .sendForm {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc;
   padding: 0px 0 25px 0px;
-  display: flex;
+  display: flex; */
 }
 
 .textarea {
-  width: 920px;
+  /* width: 920px;
   font-size: 14px;
   height: 40px !important;
   background: #F5F7FB;
@@ -14,14 +14,14 @@
   margin-top: 70px;
   border-radius: 20px;
   line-height: 3;
-  padding: 0px 30px;
+  padding: 0px 30px; */
 
 
 
 }
 
 .button {
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif;
   cursor: pointer;
   box-shadow: -1px 3px 3px 0 rgba(80, 80, 80, .2);
   width: 155px;
@@ -36,5 +36,5 @@
   font-weight: bold;
   flex: 0 0 auto;
   background: #2c29e1;
-  transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; */
 }
