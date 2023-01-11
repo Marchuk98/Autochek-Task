@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Autochek-Task/static/css/main.8fc4e2e4.css",
-    "main.js": "/Autochek-Task/static/js/main.84edce79.js",
+    "main.css": "/Autochek-Task/static/css/main.e6fb2a34.css",
+    "main.js": "/Autochek-Task/static/js/main.d94d22ea.js",
     "static/js/787.66cb4309.chunk.js": "/Autochek-Task/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/Autochek-Task/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/Autochek-Task/index.html",
-    "main.8fc4e2e4.css.map": "/Autochek-Task/static/css/main.8fc4e2e4.css.map",
-    "main.84edce79.js.map": "/Autochek-Task/static/js/main.84edce79.js.map",
+    "main.e6fb2a34.css.map": "/Autochek-Task/static/css/main.e6fb2a34.css.map",
+    "main.d94d22ea.js.map": "/Autochek-Task/static/js/main.d94d22ea.js.map",
     "787.66cb4309.chunk.js.map": "/Autochek-Task/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fc4e2e4.css",
-    "static/js/main.84edce79.js"
+    "static/css/main.e6fb2a34.css",
+    "static/js/main.d94d22ea.js"
   ]
 }
