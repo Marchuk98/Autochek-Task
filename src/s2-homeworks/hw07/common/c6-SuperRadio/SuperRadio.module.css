@@ -1,15 +1,34 @@
 .radio {
+    width: 18px;
+    height: 20px;
+    margin: 10px 10px 0 30px;
+    background: rgb(0, 0, 0);
 }
 
 .radio::before {
+    border: 1px solid #FE9013;
 }
 
+input[type="radio"] {
+    background-color: rgb(1, 1, 1);
+}
 
 .radio:checked::before {
+    margin-left: 230px;
 }
 
 .label {
+    display: flex;
+    width: 200px;
+    margin-left: 240px;
+    text-align: start;
+
+}
+
+.label span{
+    margin-top: 8px;
 }
 
 .options {
+    color: rgb(0, 0, 0);
 }
