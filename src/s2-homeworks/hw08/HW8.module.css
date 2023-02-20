@@ -1,19 +1,28 @@
 .item {
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+    width: 606px;
+    height: 36px;
 }
 
 .buttonsContainer {
 }
 
 .container {
+    margin-bottom: 25px;
 }
 
 .thead {
+    font-weight: bold;
+    width: 606px;
+    height: 36px;
+    background: #E5E5E5;
 }
 
 .nameCol {
