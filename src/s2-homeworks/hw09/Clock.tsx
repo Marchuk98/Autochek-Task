@@ -30,7 +30,7 @@ function Clock() {
             setShow(false)
     }
 
-    let formatTime = new Intl.DateTimeFormat("ru",{
+    let formatTime = new Intl.DateTimeFormat("ru-Ru",{
         hour: "numeric",
         minute: "numeric",
         second: "numeric"
