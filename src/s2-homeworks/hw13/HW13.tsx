@@ -36,9 +36,8 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText('...всё ок)')
-                setInfo('код 200 - обычно означает что скорее всего всё ок')
-
+                setText(`...всё ок)`)
+                setInfo('код 200 - обычно означает что скорее всего всё ок)')
             })
             .catch((error) => {
                     switch (error.response.status){
@@ -46,26 +45,25 @@ const HW13 = () => {
                             setCode('Код 400!')
                             setImage(error400)
                             setText('Ты не отправил success в body вообще!')
-                            setInfo('ошибка 400 - обычно означает что скорее всего фронт отправил что-то не то на бэк')
+                            setInfo('ошибка 400 - обычно означает что скорее всего фронт отправил что-то не то на бэк!')
                             break
                         }
                         case 500:{
                             setCode('Код 500!')
                             setImage(error500)
                             setText('эмитация ошибки на сервере')
-                            setInfo('ошибка 500 - обычно означает что что-то сломалось на сервере, например база данных')
+                            setInfo('ошибка 500 - обычно означает что что-то сломалось на сервере, например база данных)')
                             break
                         }
                         default:{
                             setCode('Error!')
                             setImage(errorUnknown)
-                            setText('Network Error')
-                            setInfo('AxiosError')
+                            setText('AxiosError')
+                            setInfo('Network Error')
                         }
                     }
             })
     }
-
     return (
         <div id={'hw13'}>
             <div className={s2.hwTitle}>Homework #13</div>
