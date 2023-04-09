@@ -18,14 +18,8 @@ export type SuperDebouncedInputPropsType = Omit<DefaultInputPropsType, 'type'> &
     onDebouncedChange?: (value: string) => void
 }
 
-const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = (
-    {
-        onChangeText,
-        onDebouncedChange,
-
-        ...restProps // все остальные пропсы попадут в объект restProps
-    }
-) => {
+const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = ({onChangeText, onDebouncedChange, ...restProps // все остальные пропсы попадут в объект restProps
+}) => {
     const [timerId, setTimerId] = useState<number | undefined>(undefined)
 
     const onChangeTextCallback = (value: string) => {
@@ -33,9 +27,10 @@ const SuperDebouncedInput: React.FC<SuperDebouncedInputPropsType> = (
 
         if (onDebouncedChange) {
             // делает студент
-
             // остановить предыдущий таймер
+            clearInterval(timerId)
             // запустить новый на 1500ms, в котором вызовется функция
+            setTimerId(+setTimeout(()=> onDebouncedChange(value),1500))
 
             //
         }
