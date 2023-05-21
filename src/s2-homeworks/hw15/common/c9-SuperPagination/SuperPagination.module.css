@@ -1,11 +1,26 @@
 .pagination {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .text1 {
-
+    padding: 6px 0px 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #0D0B0C;
 }
 
 .text2 {
-
+    padding: 7px 0 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 16px;
+    color: #0D0B0C;
 }

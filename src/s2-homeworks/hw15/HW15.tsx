@@ -56,9 +56,9 @@ const HW15 = () => {
                     if(res){
                         setTechs(res.data.techs)
                         setTotalCount(res.data.totalCount)
-                        setLoading(false)
+
                     }
-                //
+                setLoading(false)
             })
     }
 
@@ -67,7 +67,7 @@ const HW15 = () => {
         setPage(newPage)
         setCount(newCount)
 
-        sendQuery({pages:newPage,count:newCount,sort})
+        sendQuery({page:newPage,count:newCount,sort})
         setSearchParams({pages:newPage.toString(),count:newCount.toString(),sort})
 
         //

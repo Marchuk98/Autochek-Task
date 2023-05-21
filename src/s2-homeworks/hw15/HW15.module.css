@@ -1,25 +1,60 @@
 .tech {
     width: 50vw;
+
 }
 
 .developer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 
+    display: flex;
+    align-items: center;
+
+    color: #000000;
 }
 
 .techHeader {
     width: 50vw;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    display: flex;
+    color: #000000;
 }
 
 .developerHeader {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    display: flex;
+    color: #000000;
+    margin-right: 15px;
 }
 
 .row {
     display: flex;
+    padding: 10px 20px 15px 20px;
+    border-bottom: 1px solid #E5E5E5;
+    width: 605px;
+
 }
 
 .rowHeader {
     display: flex;
+    background: #E5E5E5;
+    width: 606px;
+    height: 36px;
+    margin-top: 20px;
 }
 
 .loading {
