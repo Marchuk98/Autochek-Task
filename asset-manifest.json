@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Autochek-Task/static/css/main.8a062bd4.css",
-    "main.js": "/Autochek-Task/static/js/main.63b69c9b.js",
+    "main.css": "/Autochek-Task/static/css/main.2412db5b.css",
+    "main.js": "/Autochek-Task/static/js/main.3d25d78c.js",
     "static/js/787.66cb4309.chunk.js": "/Autochek-Task/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/Autochek-Task/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/200.svg": "/Autochek-Task/static/media/200.2b4de1542921864a6ecb8c3301ea4670.svg",
@@ -14,12 +14,15 @@
     "static/media/checked.svg": "/Autochek-Task/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/Autochek-Task/index.html",
     "static/media/burger.svg": "/Autochek-Task/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.8a062bd4.css.map": "/Autochek-Task/static/css/main.8a062bd4.css.map",
-    "main.63b69c9b.js.map": "/Autochek-Task/static/js/main.63b69c9b.js.map",
+    "static/media/noneIcon.svg": "/Autochek-Task/static/media/noneIcon.82be5adb1b751c50d996cd22beed7ded.svg",
+    "static/media/downIcon.svg": "/Autochek-Task/static/media/downIcon.84608c11f30550bbfe9dc58dff6d4ddb.svg",
+    "static/media/upIcon.svg": "/Autochek-Task/static/media/upIcon.3f53e1ada336d4a2b89dabfb878c65f9.svg",
+    "main.2412db5b.css.map": "/Autochek-Task/static/css/main.2412db5b.css.map",
+    "main.3d25d78c.js.map": "/Autochek-Task/static/js/main.3d25d78c.js.map",
     "787.66cb4309.chunk.js.map": "/Autochek-Task/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a062bd4.css",
-    "static/js/main.63b69c9b.js"
+    "static/css/main.2412db5b.css",
+    "static/js/main.3d25d78c.js"
   ]
 }
